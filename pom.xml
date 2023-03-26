@@ -4,6 +4,5 @@
     <groupId>sa.qattahpay.sdk</groupId>
     <artifactId>final</artifactId>
     <version>1.0</version>
-    <packaging>aar</packaging>
     <dependencies/>
 </project>
