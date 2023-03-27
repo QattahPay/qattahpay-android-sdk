@@ -7,7 +7,6 @@
     <artifactId>qattahpay-android-sdk</artifactId>
     <version>1.4</version>
     <description>The QattahPay Android SDK provides a payment gateway integration with QattahPay.</description>
-    <url>https://github.com/QattahPay/qattahpay-android-sdk</url>
     <dependencies>
         <dependency>
             <groupId>io.socket</groupId>
