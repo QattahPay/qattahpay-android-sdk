@@ -1,6 +1,6 @@
 # QattahPay Android SDK
 
-[![](https://jitpack.io/v/QattahPay/android-sdk.svg)](https://jitpack.io/#QattahPay/android-sdk)
+[![](https://jitpack.io/v/QattahPay/qattahpay-android-sdk.svg)](https://jitpack.io/#QattahPay/qattahpay-android-sdk)
 
 
 The QattahPay Android SDK provides a payment gateway integration with QattahPay, supporting both English and Arabic languages. The SDK offers a simplified checkout process and supports the latest version of Android.
@@ -11,7 +11,7 @@ To use the QattahPay Android SDK in your project, add the following dependency t
 
 ```gradle
 dependencies {
-    implementation 'com.github.QattahPay:android-sdk:v0.1'
+    implementation 'com.github.QattahPay:qattahpay-android-sdk:1.3'
 }
 ```
 
