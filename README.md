@@ -59,7 +59,7 @@ For more detailed information, refer to the QattahPay Android SDK documentation.
 
 ## Release Notes
 
-### Version 0.1
+### Version 1.3
 
 - New payment gateway integration with QattahPay.
 - Support for English and Arabic languages.
