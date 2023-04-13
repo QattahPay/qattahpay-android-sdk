@@ -22,7 +22,7 @@ allprojects {
 
 ```kotlin
 dependencies {
-    implementation 'com.github.QattahPay:qattahpay-android-sdk:{latest-version}'
+    implementation 'com.github.QattahPay:qattahpay-android-sdk:2.0'
 }
 
 ```
@@ -38,7 +38,7 @@ QattahPay.initialize(context, "YOUR_MERCHANT_API_KEY");
 
 To make a payment request, you need to create a PaymentRequest object and call the startPayment() method:
 
-```
+```kotlin
 // create a new payment request
             val paymentRequest: PaymentRequest = PaymentRequest.Builder()
                 .setAmount(120.00) // amount in Saudi Riyals (SAR)
