@@ -19,7 +19,8 @@ allprojects {
 
 or add this to your project settings.gradle:
 ```kotlin
-pluginManagement {
+dependencyResolutionManagement {
+    ...
     repositories {
         ...
         maven { url 'https://jitpack.io' }
@@ -28,11 +29,11 @@ pluginManagement {
 
 ```
 
-1. Add the following to your app-level build.gradle file:
+2. Add the following to your app-level build.gradle file:
 
 ```kotlin
 dependencies {
-    implementation 'com.github.QattahPay:qattahpay-android-sdk:2.0'
+    implementation 'com.github.QattahPay:qattahpay-android-sdk:2.0@aar'
 }
 
 ```
