@@ -12,17 +12,28 @@ To include the Qattah Pay Android SDK Library in your Android application, follo
 allprojects {
     repositories {
         ...
-        maven { url '<https://jitpack.io>' }
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+or add this to your project settings.gradle:
+```kotlin
+dependencyResolutionManagement {
+    ...
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
     }
 }
 
 ```
 
-1. Add the following to your app-level build.gradle file:
+2. Add the following to your app-level build.gradle file:
 
 ```kotlin
 dependencies {
-    implementation 'com.github.QattahPay:qattahpay-android-sdk:2.0'
+    implementation 'com.github.QattahPay:qattahpay-android-sdk:2.0@aar'
 }
 
 ```
