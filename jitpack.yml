@@ -1,2 +1,2 @@
 install:
-  mvn install:install-file -Dfile=qattahpay-android-sdk-2.1.aar -DgroupId=com.github.QattahPay -DartifactId=qattahpay-android-sdk -Dversion=2.1 -Dpackaging=aar -DpomFile=pom.xml
+  mvn install:install-file -Dfile=qattahpay-android-sdk-2.2.aar -DgroupId=com.github.QattahPay -DartifactId=qattahpay-android-sdk -Dversion=2.2 -Dpackaging=aar -DpomFile=pom.xml
