@@ -1,3 +1,9 @@
+<p align="center">
+    <img src="https://random-bucket.fra1.cdn.digitaloceanspaces.com/images/logo_en.svg"
+        height="230">
+        
+</p>
+
 # Qattah Pay Android SDK Library
 
 Qattah Pay Android SDK Library is a payment integration library that allows merchants to accept payments in their Android applications.
