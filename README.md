@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/QattahPay/qattahpay-android-sdk.svg)](https://jitpack.io/#QattahPay/qattahpay-android-sdk)
+
 <p align="center">
     <img src="https://random-bucket.fra1.cdn.digitaloceanspaces.com/images/logo_en.svg"
         height="230">
