@@ -41,7 +41,7 @@ dependencyResolutionManagement {
 
 ```kotlin
 dependencies {
-    implementation 'com.github.QattahPay:qattahpay-android-sdk:2.5@aar'
+    implementation 'com.github.QattahPay:qattahpay-android-sdk:2.6@aar'
 }
 
 ```
@@ -66,6 +66,8 @@ To make a payment request, you need to create a PaymentRequest object and call t
                 .setDescription("PRODUCT_DESCRIPTION")
                 .setCustomerEmail("CUSTOMER_EMAIL")
                 .setCustomerMobileNumber("CUSTOMER_MOBILE_NUMBER")
+                .setLanguage(Language.EN)
+                .setTheme(Theme.DARK)
                 .isSandbox(true)
                 .build()
 
