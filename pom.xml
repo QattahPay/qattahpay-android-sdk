@@ -5,6 +5,6 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.QattahPay</groupId>
     <artifactId>qattahpay-android-sdk</artifactId>
-    <version>3.0</version>
+    <version>3.1.0</version>
     <dependencies/>
 </project>
